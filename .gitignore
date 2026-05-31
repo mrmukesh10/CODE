@@ -1,0 +1,23 @@
+# Ignore dataset and generated data
+aug_dtst/dataset_augmented/
+dataset_augmented/
+**/dataset_augmented/
+
+# Ignore model weights and serialized models
+*.keras
+*.h5
+*.hdf5
+
+# Ignore results outputs
+**/results/
+**/RESULT/
+
+# Ignore Windows shortcuts
+*.lnk
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Notebook checkpoints
+.ipynb_checkpoints/
